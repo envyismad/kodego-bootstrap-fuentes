@@ -1,0 +1,150 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.header {
+    background-color: #333;
+    color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: blanchedalmond;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-span {
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+header nav a {
+    text-decoration: none;
+    color: blanchedalmond;
+    margin: 0 30px;
+    font-size: 15px;
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+
+p{
+    font-style: oblique;
+    text-align: center;
+    color: crimson;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.center-button {
+    padding: 5px 5px;
+    background-color: black;
+    color: burlywood;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
+}
+
+.center-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #fdfdfd;
+}
+
+.input-field {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.textarea-field {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px 10px;
+    background-color: black;
+    color: burlywood;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: blanchedalmond;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-section {
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: top;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-section input[type="email"] {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.footer p {
+    margin-top: 20px;
+    text-align: center;
+}
